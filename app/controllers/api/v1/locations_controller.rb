@@ -12,5 +12,5 @@ class Api::V1::LocationsController < ApiController
     def set_location
         @location = Location.find(params[:id])
     end
-
+    
 end
